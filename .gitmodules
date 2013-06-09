@@ -1,0 +1,18 @@
+[submodule "cookbooks/dot"]
+	path = cookbooks/dot
+	url = https://github.com/gyllstromk/dot
+[submodule "cookbooks/curl"]
+	path = cookbooks/curl
+	url = git@github.com:phlipper/chef-curl.git
+[submodule "cookbooks/git"]
+	path = cookbooks/git
+	url = git@github.com:opscode-cookbooks/git.git
+[submodule "cookbooks/mongodb"]
+	path = cookbooks/mongodb
+	url = git@github.com:edelight/chef-mongodb.git
+[submodule "cookbooks/rabbitmq"]
+	path = cookbooks/rabbitmq
+	url = git@github.com:opscode-cookbooks/rabbitmq.git
+[submodule "cookbooks/zsh"]
+	path = cookbooks/zsh
+	url = git@github.com:opscode-cookbooks/zsh.git
