@@ -12,3 +12,14 @@ git "#{home}/.nvm" do
     group group
     action :checkout
 end
+
+bash 'install' do
+    user me
+    group group
+    cwd home
+
+    environment "HOME" => home
+
+    @versions = Array(node['nvm']['versions'])
+    code @versions.map { |version| ". #{home}/.nvm/nvm.sh && nvm install #{version}" }.join("\n").strip
+end
