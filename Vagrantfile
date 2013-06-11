@@ -22,6 +22,7 @@ Vagrant::configure('2') do |config|
 #        chef.add_recipe "mongodb"
         chef.add_recipe "nvm"
         chef.add_recipe "dot"
+        chef.add_recipe "gitflow"
     end
 
 end
