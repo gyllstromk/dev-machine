@@ -10,7 +10,8 @@ Vagrant::configure('2') do |config|
             },
             "nvm" => {
                 "user" => "vagrant",
-                "group" => "vagrant"
+                "group" => "vagrant",
+                "versions" => [ 'v0.8.24' ]
             }
         }
 
@@ -19,9 +20,6 @@ Vagrant::configure('2') do |config|
         chef.add_recipe "curl"
         chef.add_recipe "make"
         chef.add_recipe "g++"
-        chef.add_recipe "rabbitmq"
-        chef.add_recipe "redis"
-        chef.add_recipe "mongodb"
         chef.add_recipe "nvm"
         chef.add_recipe "dot"
         chef.add_recipe "gitflow"
