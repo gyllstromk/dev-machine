@@ -10,9 +10,6 @@
 [submodule "cookbooks/mongodb"]
 	path = cookbooks/mongodb
 	url = git@github.com:edelight/chef-mongodb.git
-[submodule "cookbooks/rabbitmq"]
-	path = cookbooks/rabbitmq
-	url = git@github.com:opscode-cookbooks/rabbitmq.git
 [submodule "cookbooks/zsh"]
 	path = cookbooks/zsh
 	url = git@github.com:opscode-cookbooks/zsh.git
