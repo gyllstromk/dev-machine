@@ -1,6 +1,6 @@
 [submodule "cookbooks/dot"]
 	path = cookbooks/dot
-	url = https://github.com/gyllstromk/dot
+	url = https://github.com/tilquin/dot
 [submodule "cookbooks/curl"]
 	path = cookbooks/curl
 	url = git@github.com:phlipper/chef-curl.git
